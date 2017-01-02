@@ -1,0 +1,9 @@
+$(document).on('ready page:load', function () {
+  $.getJSON('<%= Rails.application.routes.url_helpers.api_cloud_path %>', function(data) {
+    $('#tagcloud').jQCloud(data, {
+      width: 320,
+      height: 320,
+      shape: 'rectangular'
+    });
+  });
+});

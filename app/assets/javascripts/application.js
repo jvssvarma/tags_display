@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require bootstrap-tagsinput
+//= require jqcloud
 //= require_tree .
